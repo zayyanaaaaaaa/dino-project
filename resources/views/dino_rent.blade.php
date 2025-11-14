@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="{{ asset('css/dino_rent.css') }}">
 </head>
 
-<body>
+<body></body>
 
     <!-- NAVBAR -->
     <header class="navbar">
@@ -26,7 +26,7 @@
         <div class="actions">
             <a href="#" class="icon">📞</a>
             <a href="https://wa.me/+62 857-1848-2554" class="icon" target="_blank">👤</a>
-            <button class="login-btn">Masuk</button>
+            <button class="login-btn" onclick="window.location.href='/login'">Masuk</button>
         </div>
     </header>
 
@@ -143,6 +143,24 @@
             <div class="carousel-controls">
                 <button class="prev">&#8249;</button>
                 <button class="next">&#8250;</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ADMIN DASHBOARD -->
+    <section id="admin-dashboard" class="admin-dashboard">
+        <div class="sidebar">
+            <h3>Dashboard Admin</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Produk</a></li>
+                <li><a href="#">Artikel</a></li>
+            </ul>
+        </div>
+        <div class="main-content">
+            <h2>Produk</h2>
+            <div class="content-box">
+                <p>Konten produk akan ditampilkan di sini.</p>
             </div>
         </div>
     </section>
